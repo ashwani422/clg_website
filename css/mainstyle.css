@@ -1,0 +1,63 @@
+/*-------------------------------------------------------
+----------------- Parallex Effect -----------------------
+-------------------------------------------------------*/
+#bg-img1{
+    width: 100%;
+    height: 78vh;
+    background-image: url("images/clggate.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#bg-img2{
+    width: 100%;
+    height: 78vh;
+    background-image: url("images/clgoffice.jpg");
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+#bg-img3{
+    width: 100%;
+    height: 78vh;
+    background-image: url("images/clglibrary.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#bg-img4{
+    width: 100%;
+    height: 78vh;
+    background-image: url("images/clglab.jpg");
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+#bg-img5{
+    width: 100%;
+    height: 78vh;
+    background-image: url("images/clghall.jpg");
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+#bg-img6{
+    width: 100%;
+    height: 78vh;
+    background-image: url("images/clgground.jpg");
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+/*-------------------------------------------------------
+----------------- Section style -------------------------
+-------------------------------------------------------*/
+#container section{
+    background-color: #222D32;
+    color: white;
+    padding: 10px;
+}
+
+#container section h3{
+    font-size: 30px;
+}

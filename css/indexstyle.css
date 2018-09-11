@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+/*-------------------------------------------------------
+------------------Main container style-------------------
+-------------------------------------------------------*/
+#big-container{
+    margin: auto;
+    padding: 5px 10px;
+    min-width: 400px;
+    max-width: 1200px;
+}
+
+#header{
+    height: 300px;
+    width: 99.7%;
+    border: 2px solid #0A518E;
+}
+
+/*-------------------------------------------------------
+------------------Navigation Bar style-------------------
+-------------------------------------------------------*/
+#navBar{
+    background-color: #3A99D3;
+    margin: 1vh auto;
+    min-height: 275px;
+    height: 90vh;
+    width: 200px;
+    float: left;
+    border: 2px solid #003774;
+}
+
+ul{
+    list-style-type: none;
+    padding: 2px 4px;
+}
+
+ul li{
+    background-color: #2C73B0;
+    margin: 2px;
+    border: 1.5px solid #003774;
+}
+
+ul li:first-child{
+    background-color: #0A518E;
+}
+
+ul li:active{
+    background-color: #0A518E;
+    border: 1.5px solid #2C73B0;
+}
+
+ul li:hover{
+    background-color: #003774;
+}
+
+ul li a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: white;
+    padding: 3px;
+    display: block;
+    width: 198px;
+    padding-left: 10px;
+}
+
+/*-------------------------------------------------------
+------------------Content style--------------------------
+-------------------------------------------------------*/
+#content{
+    margin-left: 205px;
+    background-color: #DDDDDD;
+    border: 2px solid black;
+    margin: 1vh auto 1vh 205px;
+    min-height: 270px;
+    height: 90vh;
+    min-width: 189px;
+    max-width: 1180px;
+    word-wrap: break-word;
+    overflow-y: scroll;
+}
+
+/*-------------------------------------------------------
+------------------Footer style---------------------------
+-------------------------------------------------------*/
+#footer{
+    clear: left;
+    background-color: #3A99D3;
+    border: 2px solid #003774;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-size: 19px;
+}
